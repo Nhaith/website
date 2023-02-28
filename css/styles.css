@@ -1,0 +1,138 @@
+/***************** TAG SELECTORS **********************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 15rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #567189;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #567189;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #609966;
+}
+
+a {
+    color: #6096B4;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #BDCDD6;
+}
+
+
+p {
+    color: #393E46;
+    line-height: 2;
+}
+
+hr {
+    width: 4%;
+    border: dotted #FFD369 6px;
+    border-bottom: none;
+    margin: 75px auto;
+}
+/***************** CLASS SELECTORS **********************/
+
+.top-container {
+    background-color: #EDF1D6;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.middle-container {
+    margin: 50px 0px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: start;
+}
+
+
+.analytics-pic {
+    width: 13%;
+    float: left;
+    margin-right: 30px;
+}
+
+.data-pic {
+    width: 13%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.btn {
+  background: #FFD369;
+  background-image: -webkit-linear-gradient(top, #FFD369, #EDF1D6);
+  background-image: -moz-linear-gradient(top, #FFD369, #EDF1D6);
+  background-image: -ms-linear-gradient(top, #FFD369, #EDF1D6);
+  background-image: -o-linear-gradient(top, #FFD369, #EDF1D6);
+  background-image: linear-gradient(to bottom, #FFD369, #EDF1D6);
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: 'Montserrat', sans-serif;
+  color: #40513B;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+.contact-message {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.btn:hover {
+  background: #EDF1D6;
+  background-image: -webkit-linear-gradient(top, #EDF1D6, #FFD369);
+  background-image: -moz-linear-gradient(top, #EDF1D6, #FFD369);
+  background-image: -ms-linear-gradient(top, #EDF1D6, #FFD369);
+  background-image: -o-linear-gradient(top, #EDF1D6, #FFD369);
+  background-image: linear-gradient(to bottom, #EDF1D6, #FFD369);
+  text-decoration: none;
+}
+
+.bottom-container {
+    line-height: 2;
+    background-color: #EDF1D6;
+    padding: 20px 0 10px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #BDCDD6;
+    padding: 20px 0px;
+}
